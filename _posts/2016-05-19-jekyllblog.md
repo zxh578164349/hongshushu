@@ -13,8 +13,8 @@ tags: [jekyll]
 ## 新建一个 repository
 
 点击右上角的加号
-![]({{ site.baseurl }}/files/images/20160519/create.png)
-填写 repository 名称,点击 Create repository
+![]({{ site.baseurl }}/files/images/20160519/create.png)  
+填写 repository 名称,点击 Create repository  
 ![]({{ site.baseurl }}/files/images/20160519/info.png)
 
 ## 创建 repository 主页
