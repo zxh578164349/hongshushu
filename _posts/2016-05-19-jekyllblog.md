@@ -48,7 +48,7 @@ git 是一个版本控制器，在这里不作详细介绍。我们主要通过�
 {% highlight ruby %}
 git init
 {% endhighlight %}
-### **(PS:补充创建一个没有父节点的分支gh-pages )**
+### **<font sytle="color:red">(PS:补充创建一个没有父节点的分支gh-pages )</font>**
 
 {% highlight ruby %}
 git checkout --orphan gh-pages
