@@ -45,13 +45,18 @@ request  response session  application
 
 ## Jsp声明一个变量
 
+{% highlight ruby %}
 <%! int i=0%>
+{% endhighlight %}
 
-##Jsp引用一个变量
+## Jsp引用一个变量
 
-<%= username%>
+{% highlight ruby %}
+  <%= username%>
+{% endhighlight %}
 
 ## Jsp声明方法
-<%  
-     代码块
-%>
+
+{% highlight ruby %}
+  <%代码块%>
+{% endhighlight %}
