@@ -30,7 +30,9 @@ tags: [jekyll]
 
 ***
 ***
+
 **以上内容只是说明如何在 Github 上创建一个 repository 以及创建它的主页 index ,这只是准备工作,后面会用到**
+
 ***
 ***
 
@@ -48,7 +50,7 @@ git 是一个版本控制器，在这里不作详细介绍。我们主要通过�
 {% highlight ruby %}
 git init
 {% endhighlight %}
-### **<font sytle="color:red">(PS:补充创建一个没有父节点的分支gh-pages )</font>**
+### **<font style="color:red">(PS:补充创建一个没有父节点的分支gh-pages )</font>**
 
 {% highlight ruby %}
 git checkout --orphan gh-pages
