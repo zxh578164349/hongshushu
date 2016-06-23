@@ -61,7 +61,7 @@ duoshuo: hongshushu
 
 
 # Pagination
-paginate: 10
+paginate: 6
 paginate_path: 'page:num'
 
 # Navigation
