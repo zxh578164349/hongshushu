@@ -12,8 +12,8 @@ tags: [apache tomcat]
 2 复制tomcat中的conf文件夹放置在tomcat1与tomcat2,修改conf中的server.xml配置文件，修改3处端口  
 
 ![]({{ site.baseurl }}/files/images/20160830/111.png) 
-![]({{ site.baseurl }}/files/images/20160830/222.png)   
-![]({{ site.baseurl }}/files/images/20160830/001.png)  
+![]({{ site.baseurl }}/files/images/20160830/2222.png)   
+![]({{ site.baseurl }}/files/images/20160830/333.png)  
 
   
 
