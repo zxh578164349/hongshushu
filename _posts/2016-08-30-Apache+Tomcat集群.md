@@ -104,7 +104,7 @@ uriworkermap.properties
 !/Login/loginpage/*=lbServer
 {% endhighlight %}
 
-<font style="color:red">注意,workers.propertiesk中的tomcat1  tomcat2兩箇名字要在tomcat各自實例tomcat1,tomcat2中的server.xml文件標明出來,如下:  </font>
+<font style="color:red;font-style:italic">注意,workers.propertiesk中的tomcat1  tomcat2兩箇名字要在tomcat各自實例tomcat1,tomcat2中的server.xml文件標明出來,如下:  </font>
 
 ![]({{ site.baseurl }}/files/images/20160830/006.png)
 ![]({{ site.baseurl }}/files/images/20160830/005.png) 
@@ -145,7 +145,7 @@ tomcat1,tomcat2的server.xml的<Host></Host>加入如下代碼
   </Cluster>
 {% endhighlight %}
 
-<font style="color:red">注意, <membership bind="172.17.18.173"/>,<Receiver address="172.17.18.173"/>都是本機IP</font>
+<font style="color:red;fontStyle:italic">注意, membership bind="172.17.18.173"  Receiver address="172.17.18.173" 都是本機IP</font>
  
 
 
