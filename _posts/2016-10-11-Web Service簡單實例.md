@@ -45,7 +45,7 @@ public class Service{
 ![]({{ site.baseurl }}/files/images/Web Service/002.png)  
 
 
-4.在瀏覽器輸入以下 http://172.17.18.173:8080/WebService/Serviec?wsdl  測試結果,如下：  
+4.在瀏覽器輸入以下 <font style="font-color:red;font-style:italic">http://172.17.18.173:8080/WebService/Serviec?wsdl</font>  測試結果,如下：  
 
  ![]({{ site.baseurl }}/files/images/Web Service/003.png) 
 
