@@ -3,7 +3,7 @@
     <div class="site-footer">
 
         <div class="copyright pull-left">
-           <span> © 2015-2016 {{ site.name }}
+           <span><p id="cp_date">© 2015-2016 {{ site.name }}</p> 
            <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259947671'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1259947671%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
            </span>
         </div>
@@ -23,6 +23,8 @@
 
     <!-- My JS -->
     <script type="text/javascript" src="{{ site.baseurl }}/assets/js/script.js"></script>
+	
+	<script type="text/javascript" src="{{ site.baseurl }}/bower_components/jquery/dist/jquery.min.js"></script>
 
     {% for javascript in page.javascript %}
     <script src="{{ site.baseurl }}/assets/js/{{javascript}}"></script>
@@ -41,5 +43,9 @@
 
         </script>
     </div>
-
+    <script>
+	   $(function(){
+	       $("#cp_date").text("© 2015-"+new Date().getYear())
+	   });
+	</script>
 </footer>
