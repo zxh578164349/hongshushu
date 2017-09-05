@@ -13,3 +13,6 @@ tags: [jekyll,域名]
 * __Gighub项目中添加一个不带扩展名的文件:CNAME__
 * __内容：上面申请到的域名（例如我的：hongshushu.xyz）__
 * __注意，最后还要修改相对应的url和baseurl参数__
+
+*补充：在godaddy上要添加一个A记录和一个CNAME,如下图
+* ![]({{ site.baseurl }}/files/images/godaddy/02.jpg)
