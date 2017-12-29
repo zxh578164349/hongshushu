@@ -1,2 +1,8 @@
 hello hongshushu!
+<<<<<<< HEAD
 "I'm fine!"
+=======
+How are you?
+>>>>>>> 82941c0de35255aaeb2daa575d2a47eae0d2464f
+
+another tomorrow
