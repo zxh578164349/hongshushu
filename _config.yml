@@ -19,8 +19,8 @@ github_url: https://github.com/zxh578164349/hongshushu
 #baseurl: 
 #url: http://zxh578164349.github.io/hongshushu
 #baseurl: /hongshushu
-url: http://hongshushu.xyz
-baseurl:
+#url: http://hongshushu.xyz
+baseurl:/hongshushu
 #assets: /DONGChuan/assets
 
 ## Gem
